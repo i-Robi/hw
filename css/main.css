@@ -1,0 +1,66 @@
+body {
+  color: #eee;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.blue {
+  background-color: #0000ff;
+  -webkit-transition: background-color 0.25s;
+     -moz-transition: background-color 0.25s;
+      -ms-transition: background-color 0.25s;
+       -o-transition: background-color 0.25s;
+          transition: background-color 0.25s;
+}
+.white {
+  background-color: #ffffff;
+  -webkit-transition: background-color 0.25s;
+     -moz-transition: background-color 0.25s;
+      -ms-transition: background-color 0.25s;
+       -o-transition: background-color 0.25s;
+          transition: background-color 0.25s;
+}
+.red {
+  background-color: #ff0000;
+  -webkit-transition: background-color 0.25s;
+     -moz-transition: background-color 0.25s;
+      -ms-transition: background-color 0.25s;
+       -o-transition: background-color 0.25s;
+          transition: background-color 0.25s;
+}
