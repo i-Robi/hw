@@ -5,7 +5,7 @@ function HandWaving() {
   this.angleLimit = 60;
   // context = 
 
-  bufferLoader.load('hw/sounds/guitar.mp3', setup, context);
+  bufferLoader.load('sounds/guitar.mp3', setup, context);
 
   function setup (audioBuffer) {
     this.HandWaving.prototype.audioBuffer = audioBuffer;
